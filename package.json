@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "publish-lin:npm": "rm -rf dist && mkdir dist &&  babel src/component -d dist --copy-files",
-    "publish-win:npm": "mkdir dist &&  babel src/component -d dist --copy-files"
+    "publish-win:npm": " rmdir /s /q dist && mkdir dist &&  babel src/component -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
